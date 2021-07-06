@@ -1,12 +1,16 @@
 <template>
-  <h2>Home page of Nuxt</h2>
+<div>   
+    <h1> About nuxt-101 </h1>
+    <p> hihihi my first nuxt project</p>
+</div>
+  
 </template>
 
 <script>
 export default {
     head() {
         return {
-            title: 'Welcome to the page',
+            title: 'About The App',
             meta: [
                 {
                     hid: 'description',
@@ -19,3 +23,7 @@ export default {
 
 }
 </script>
+
+<style>
+
+</style>
